@@ -14,6 +14,7 @@ NodeJS, JavaScript
 - Consumir API de MELI.
 - Recorrer productos por categorias
 - Generar una salida en .csv con las variables seleccionadas
+- Poder ver comportamientos de los compradores, por ejemplo: que productos se venden mas segun su condicion, si al tener mas tiempo de garantia le transmite mas seguridad al cliente y por ende eso aumenta las ventas.
 
 ## Run Locally
 
