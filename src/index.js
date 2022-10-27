@@ -16,7 +16,6 @@ const columns = [
     "base_price",
     "available_quantity",
     "sold_quantity",
-    "descriptions",
     "condition",
     "warranty"
 ]
