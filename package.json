@@ -1,0 +1,25 @@
+{
+  "name": "challengemeli",
+  "version": "1.0.0",
+  "description": "Challenge realizado para el puesto de ETL developer de AccionaIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torreslautaro/ChallengeMeli.git"
+  },
+  "author": "lautaromt.94@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torreslautaro/ChallengeMeli/issues"
+  },
+  "homepage": "https://github.com/torreslautaro/ChallengeMeli#readme",
+  "dependencies": {
+    "csv": "^6.2.1",
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module"
+}
