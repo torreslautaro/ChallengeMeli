@@ -14,8 +14,11 @@ const columns = [
     "title",
     "price",
     "base_price",
-    "initial_quantity",
-    "condition"
+    "available_quantity",
+    "sold_quantity",
+    "descriptions",
+    "condition",
+    "warranty"
 ]
 
 const stringifier = stringify({header:true, columns:columns, delimiter:',', bom: true})
@@ -34,8 +37,10 @@ async function generateCSV({products}) {
                 title : res.title.replace(',',''),
                 price : res.price,
                 base_price : res.base_price,
-                initial_quantity : res.initial_quantity,
-                condition : res.condition
+                available_quantity : res.available_quantity,
+                sold_quantity : res.sold_quantity,
+                condition : res.condition,
+                warranty : res.warranty
             }
             stringifier.write(data)
         })
